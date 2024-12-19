@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
             textBox1 = new TextBox();
             button2 = new Button();
             button3 = new Button();
@@ -115,20 +114,20 @@
             richTextBox66 = new RichTextBox();
             richTextBox67 = new RichTextBox();
             richTextBox68 = new RichTextBox();
-            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox6 = new PictureBox();
+            listBox1 = new ListBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.FromArgb(255, 128, 0);
-            button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.Location = new Point(577, 163);
-            button1.Name = "button1";
-            button1.Size = new Size(122, 38);
-            button1.TabIndex = 0;
-            button1.Text = "проверить";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // textBox1
             // 
@@ -363,6 +362,7 @@
             // 
             richTextBox1.Location = new Point(31, 409);
             richTextBox1.Name = "richTextBox1";
+            richTextBox1.ReadOnly = true;
             richTextBox1.Size = new Size(30, 29);
             richTextBox1.TabIndex = 21;
             richTextBox1.Text = "";
@@ -371,6 +371,7 @@
             // 
             richTextBox2.Location = new Point(58, 409);
             richTextBox2.Name = "richTextBox2";
+            richTextBox2.ReadOnly = true;
             richTextBox2.Size = new Size(30, 29);
             richTextBox2.TabIndex = 22;
             richTextBox2.Text = "";
@@ -379,6 +380,7 @@
             // 
             richTextBox3.Location = new Point(87, 409);
             richTextBox3.Name = "richTextBox3";
+            richTextBox3.ReadOnly = true;
             richTextBox3.Size = new Size(30, 29);
             richTextBox3.TabIndex = 23;
             richTextBox3.Text = "";
@@ -387,6 +389,7 @@
             // 
             richTextBox4.Location = new Point(114, 409);
             richTextBox4.Name = "richTextBox4";
+            richTextBox4.ReadOnly = true;
             richTextBox4.Size = new Size(30, 29);
             richTextBox4.TabIndex = 24;
             richTextBox4.Text = "";
@@ -395,6 +398,7 @@
             // 
             richTextBox5.Location = new Point(141, 409);
             richTextBox5.Name = "richTextBox5";
+            richTextBox5.ReadOnly = true;
             richTextBox5.Size = new Size(30, 29);
             richTextBox5.TabIndex = 25;
             richTextBox5.Text = "";
@@ -403,6 +407,7 @@
             // 
             richTextBox6.Location = new Point(167, 409);
             richTextBox6.Name = "richTextBox6";
+            richTextBox6.ReadOnly = true;
             richTextBox6.Size = new Size(30, 29);
             richTextBox6.TabIndex = 26;
             richTextBox6.Text = "";
@@ -411,6 +416,7 @@
             // 
             richTextBox7.Location = new Point(194, 409);
             richTextBox7.Name = "richTextBox7";
+            richTextBox7.ReadOnly = true;
             richTextBox7.Size = new Size(30, 29);
             richTextBox7.TabIndex = 27;
             richTextBox7.Text = "";
@@ -419,6 +425,7 @@
             // 
             richTextBox8.Location = new Point(221, 409);
             richTextBox8.Name = "richTextBox8";
+            richTextBox8.ReadOnly = true;
             richTextBox8.Size = new Size(30, 29);
             richTextBox8.TabIndex = 28;
             richTextBox8.Text = "";
@@ -427,6 +434,7 @@
             // 
             richTextBox9.Location = new Point(250, 409);
             richTextBox9.Name = "richTextBox9";
+            richTextBox9.ReadOnly = true;
             richTextBox9.Size = new Size(30, 29);
             richTextBox9.TabIndex = 29;
             richTextBox9.Text = "";
@@ -435,6 +443,7 @@
             // 
             richTextBox10.Location = new Point(88, 149);
             richTextBox10.Name = "richTextBox10";
+            richTextBox10.ReadOnly = true;
             richTextBox10.Size = new Size(30, 29);
             richTextBox10.TabIndex = 32;
             richTextBox10.Text = "";
@@ -443,6 +452,7 @@
             // 
             richTextBox11.Location = new Point(59, 149);
             richTextBox11.Name = "richTextBox11";
+            richTextBox11.ReadOnly = true;
             richTextBox11.Size = new Size(30, 29);
             richTextBox11.TabIndex = 31;
             richTextBox11.Text = "";
@@ -451,6 +461,7 @@
             // 
             richTextBox12.Location = new Point(32, 149);
             richTextBox12.Name = "richTextBox12";
+            richTextBox12.ReadOnly = true;
             richTextBox12.Size = new Size(30, 29);
             richTextBox12.TabIndex = 30;
             richTextBox12.Text = "";
@@ -459,6 +470,7 @@
             // 
             richTextBox13.Location = new Point(142, 371);
             richTextBox13.Name = "richTextBox13";
+            richTextBox13.ReadOnly = true;
             richTextBox13.Size = new Size(30, 29);
             richTextBox13.TabIndex = 37;
             richTextBox13.Text = "";
@@ -467,6 +479,7 @@
             // 
             richTextBox14.Location = new Point(115, 371);
             richTextBox14.Name = "richTextBox14";
+            richTextBox14.ReadOnly = true;
             richTextBox14.Size = new Size(30, 29);
             richTextBox14.TabIndex = 36;
             richTextBox14.Text = "";
@@ -475,6 +488,7 @@
             // 
             richTextBox15.Location = new Point(88, 371);
             richTextBox15.Name = "richTextBox15";
+            richTextBox15.ReadOnly = true;
             richTextBox15.Size = new Size(30, 29);
             richTextBox15.TabIndex = 35;
             richTextBox15.Text = "";
@@ -483,6 +497,7 @@
             // 
             richTextBox16.Location = new Point(59, 371);
             richTextBox16.Name = "richTextBox16";
+            richTextBox16.ReadOnly = true;
             richTextBox16.Size = new Size(30, 29);
             richTextBox16.TabIndex = 34;
             richTextBox16.Text = "";
@@ -491,6 +506,7 @@
             // 
             richTextBox17.Location = new Point(32, 371);
             richTextBox17.Name = "richTextBox17";
+            richTextBox17.ReadOnly = true;
             richTextBox17.Size = new Size(30, 29);
             richTextBox17.TabIndex = 33;
             richTextBox17.Text = "";
@@ -499,6 +515,7 @@
             // 
             richTextBox18.Location = new Point(88, 114);
             richTextBox18.Name = "richTextBox18";
+            richTextBox18.ReadOnly = true;
             richTextBox18.Size = new Size(30, 29);
             richTextBox18.TabIndex = 40;
             richTextBox18.Text = "";
@@ -507,6 +524,7 @@
             // 
             richTextBox19.Location = new Point(59, 114);
             richTextBox19.Name = "richTextBox19";
+            richTextBox19.ReadOnly = true;
             richTextBox19.Size = new Size(30, 29);
             richTextBox19.TabIndex = 39;
             richTextBox19.Text = "";
@@ -515,6 +533,7 @@
             // 
             richTextBox20.Location = new Point(32, 114);
             richTextBox20.Name = "richTextBox20";
+            richTextBox20.ReadOnly = true;
             richTextBox20.Size = new Size(30, 29);
             richTextBox20.TabIndex = 38;
             richTextBox20.Text = "";
@@ -523,6 +542,7 @@
             // 
             richTextBox21.Location = new Point(142, 301);
             richTextBox21.Name = "richTextBox21";
+            richTextBox21.ReadOnly = true;
             richTextBox21.Size = new Size(30, 29);
             richTextBox21.TabIndex = 45;
             richTextBox21.Text = "";
@@ -531,6 +551,7 @@
             // 
             richTextBox22.Location = new Point(115, 301);
             richTextBox22.Name = "richTextBox22";
+            richTextBox22.ReadOnly = true;
             richTextBox22.Size = new Size(30, 29);
             richTextBox22.TabIndex = 44;
             richTextBox22.Text = "";
@@ -539,6 +560,7 @@
             // 
             richTextBox23.Location = new Point(88, 301);
             richTextBox23.Name = "richTextBox23";
+            richTextBox23.ReadOnly = true;
             richTextBox23.Size = new Size(30, 29);
             richTextBox23.TabIndex = 43;
             richTextBox23.Text = "";
@@ -547,6 +569,7 @@
             // 
             richTextBox24.Location = new Point(59, 301);
             richTextBox24.Name = "richTextBox24";
+            richTextBox24.ReadOnly = true;
             richTextBox24.Size = new Size(30, 29);
             richTextBox24.TabIndex = 42;
             richTextBox24.Text = "";
@@ -555,6 +578,7 @@
             // 
             richTextBox25.Location = new Point(32, 301);
             richTextBox25.Name = "richTextBox25";
+            richTextBox25.ReadOnly = true;
             richTextBox25.Size = new Size(30, 29);
             richTextBox25.TabIndex = 41;
             richTextBox25.Text = "";
@@ -563,6 +587,7 @@
             // 
             richTextBox26.Location = new Point(142, 336);
             richTextBox26.Name = "richTextBox26";
+            richTextBox26.ReadOnly = true;
             richTextBox26.Size = new Size(30, 29);
             richTextBox26.TabIndex = 50;
             richTextBox26.Text = "";
@@ -571,6 +596,7 @@
             // 
             richTextBox27.Location = new Point(115, 336);
             richTextBox27.Name = "richTextBox27";
+            richTextBox27.ReadOnly = true;
             richTextBox27.Size = new Size(30, 29);
             richTextBox27.TabIndex = 49;
             richTextBox27.Text = "";
@@ -579,6 +605,7 @@
             // 
             richTextBox28.Location = new Point(88, 336);
             richTextBox28.Name = "richTextBox28";
+            richTextBox28.ReadOnly = true;
             richTextBox28.Size = new Size(30, 29);
             richTextBox28.TabIndex = 48;
             richTextBox28.Text = "";
@@ -587,6 +614,7 @@
             // 
             richTextBox29.Location = new Point(59, 336);
             richTextBox29.Name = "richTextBox29";
+            richTextBox29.ReadOnly = true;
             richTextBox29.Size = new Size(30, 29);
             richTextBox29.TabIndex = 47;
             richTextBox29.Text = "";
@@ -595,6 +623,7 @@
             // 
             richTextBox30.Location = new Point(32, 336);
             richTextBox30.Name = "richTextBox30";
+            richTextBox30.ReadOnly = true;
             richTextBox30.Size = new Size(30, 29);
             richTextBox30.TabIndex = 46;
             richTextBox30.Text = "";
@@ -603,6 +632,7 @@
             // 
             richTextBox31.Location = new Point(242, 260);
             richTextBox31.Name = "richTextBox31";
+            richTextBox31.ReadOnly = true;
             richTextBox31.Size = new Size(30, 29);
             richTextBox31.TabIndex = 54;
             richTextBox31.Text = "";
@@ -611,6 +641,7 @@
             // 
             richTextBox32.Location = new Point(215, 260);
             richTextBox32.Name = "richTextBox32";
+            richTextBox32.ReadOnly = true;
             richTextBox32.Size = new Size(30, 29);
             richTextBox32.TabIndex = 53;
             richTextBox32.Text = "";
@@ -619,6 +650,7 @@
             // 
             richTextBox33.Location = new Point(186, 260);
             richTextBox33.Name = "richTextBox33";
+            richTextBox33.ReadOnly = true;
             richTextBox33.Size = new Size(30, 29);
             richTextBox33.TabIndex = 52;
             richTextBox33.Text = "";
@@ -627,6 +659,7 @@
             // 
             richTextBox34.Location = new Point(159, 260);
             richTextBox34.Name = "richTextBox34";
+            richTextBox34.ReadOnly = true;
             richTextBox34.Size = new Size(30, 29);
             richTextBox34.TabIndex = 51;
             richTextBox34.Text = "";
@@ -635,6 +668,7 @@
             // 
             richTextBox35.Location = new Point(88, 184);
             richTextBox35.Name = "richTextBox35";
+            richTextBox35.ReadOnly = true;
             richTextBox35.Size = new Size(30, 29);
             richTextBox35.TabIndex = 57;
             richTextBox35.Text = "";
@@ -643,6 +677,7 @@
             // 
             richTextBox36.Location = new Point(59, 184);
             richTextBox36.Name = "richTextBox36";
+            richTextBox36.ReadOnly = true;
             richTextBox36.Size = new Size(30, 29);
             richTextBox36.TabIndex = 56;
             richTextBox36.Text = "";
@@ -651,6 +686,7 @@
             // 
             richTextBox37.Location = new Point(32, 184);
             richTextBox37.Name = "richTextBox37";
+            richTextBox37.ReadOnly = true;
             richTextBox37.Size = new Size(30, 29);
             richTextBox37.TabIndex = 55;
             richTextBox37.Text = "";
@@ -659,6 +695,7 @@
             // 
             richTextBox38.Location = new Point(184, 114);
             richTextBox38.Name = "richTextBox38";
+            richTextBox38.ReadOnly = true;
             richTextBox38.Size = new Size(30, 29);
             richTextBox38.TabIndex = 60;
             richTextBox38.Text = "";
@@ -667,6 +704,7 @@
             // 
             richTextBox39.Location = new Point(155, 114);
             richTextBox39.Name = "richTextBox39";
+            richTextBox39.ReadOnly = true;
             richTextBox39.Size = new Size(30, 29);
             richTextBox39.TabIndex = 59;
             richTextBox39.Text = "";
@@ -675,6 +713,7 @@
             // 
             richTextBox40.Location = new Point(128, 114);
             richTextBox40.Name = "richTextBox40";
+            richTextBox40.ReadOnly = true;
             richTextBox40.Size = new Size(30, 29);
             richTextBox40.TabIndex = 58;
             richTextBox40.Text = "";
@@ -683,6 +722,7 @@
             // 
             richTextBox41.Location = new Point(115, 260);
             richTextBox41.Name = "richTextBox41";
+            richTextBox41.ReadOnly = true;
             richTextBox41.Size = new Size(30, 29);
             richTextBox41.TabIndex = 64;
             richTextBox41.Text = "";
@@ -691,6 +731,7 @@
             // 
             richTextBox42.Location = new Point(88, 260);
             richTextBox42.Name = "richTextBox42";
+            richTextBox42.ReadOnly = true;
             richTextBox42.Size = new Size(30, 29);
             richTextBox42.TabIndex = 63;
             richTextBox42.Text = "";
@@ -699,6 +740,7 @@
             // 
             richTextBox43.Location = new Point(59, 260);
             richTextBox43.Name = "richTextBox43";
+            richTextBox43.ReadOnly = true;
             richTextBox43.Size = new Size(30, 29);
             richTextBox43.TabIndex = 62;
             richTextBox43.Text = "";
@@ -707,6 +749,7 @@
             // 
             richTextBox44.Location = new Point(32, 260);
             richTextBox44.Name = "richTextBox44";
+            richTextBox44.ReadOnly = true;
             richTextBox44.Size = new Size(30, 29);
             richTextBox44.TabIndex = 61;
             richTextBox44.Text = "";
@@ -715,6 +758,7 @@
             // 
             richTextBox45.Location = new Point(184, 149);
             richTextBox45.Name = "richTextBox45";
+            richTextBox45.ReadOnly = true;
             richTextBox45.Size = new Size(30, 29);
             richTextBox45.TabIndex = 67;
             richTextBox45.Text = "";
@@ -723,6 +767,7 @@
             // 
             richTextBox46.Location = new Point(155, 149);
             richTextBox46.Name = "richTextBox46";
+            richTextBox46.ReadOnly = true;
             richTextBox46.Size = new Size(30, 29);
             richTextBox46.TabIndex = 66;
             richTextBox46.Text = "";
@@ -731,6 +776,7 @@
             // 
             richTextBox47.Location = new Point(128, 149);
             richTextBox47.Name = "richTextBox47";
+            richTextBox47.ReadOnly = true;
             richTextBox47.Size = new Size(30, 29);
             richTextBox47.TabIndex = 65;
             richTextBox47.Text = "";
@@ -739,6 +785,7 @@
             // 
             richTextBox48.Location = new Point(115, 225);
             richTextBox48.Name = "richTextBox48";
+            richTextBox48.ReadOnly = true;
             richTextBox48.Size = new Size(30, 29);
             richTextBox48.TabIndex = 71;
             richTextBox48.Text = "";
@@ -747,6 +794,7 @@
             // 
             richTextBox49.Location = new Point(88, 225);
             richTextBox49.Name = "richTextBox49";
+            richTextBox49.ReadOnly = true;
             richTextBox49.Size = new Size(30, 29);
             richTextBox49.TabIndex = 70;
             richTextBox49.Text = "";
@@ -755,6 +803,7 @@
             // 
             richTextBox50.Location = new Point(59, 225);
             richTextBox50.Name = "richTextBox50";
+            richTextBox50.ReadOnly = true;
             richTextBox50.Size = new Size(30, 29);
             richTextBox50.TabIndex = 69;
             richTextBox50.Text = "";
@@ -763,6 +812,7 @@
             // 
             richTextBox51.Location = new Point(32, 225);
             richTextBox51.Name = "richTextBox51";
+            richTextBox51.ReadOnly = true;
             richTextBox51.Size = new Size(30, 29);
             richTextBox51.TabIndex = 68;
             richTextBox51.Text = "";
@@ -771,6 +821,7 @@
             // 
             richTextBox52.Location = new Point(296, 301);
             richTextBox52.Name = "richTextBox52";
+            richTextBox52.ReadOnly = true;
             richTextBox52.Size = new Size(30, 29);
             richTextBox52.TabIndex = 76;
             richTextBox52.Text = "";
@@ -779,6 +830,7 @@
             // 
             richTextBox53.Location = new Point(269, 301);
             richTextBox53.Name = "richTextBox53";
+            richTextBox53.ReadOnly = true;
             richTextBox53.Size = new Size(30, 29);
             richTextBox53.TabIndex = 75;
             richTextBox53.Text = "";
@@ -787,6 +839,7 @@
             // 
             richTextBox54.Location = new Point(242, 301);
             richTextBox54.Name = "richTextBox54";
+            richTextBox54.ReadOnly = true;
             richTextBox54.Size = new Size(30, 29);
             richTextBox54.TabIndex = 74;
             richTextBox54.Text = "";
@@ -795,6 +848,7 @@
             // 
             richTextBox55.Location = new Point(213, 301);
             richTextBox55.Name = "richTextBox55";
+            richTextBox55.ReadOnly = true;
             richTextBox55.Size = new Size(30, 29);
             richTextBox55.TabIndex = 73;
             richTextBox55.Text = "";
@@ -803,6 +857,7 @@
             // 
             richTextBox56.Location = new Point(186, 301);
             richTextBox56.Name = "richTextBox56";
+            richTextBox56.ReadOnly = true;
             richTextBox56.Size = new Size(30, 29);
             richTextBox56.TabIndex = 72;
             richTextBox56.Text = "";
@@ -811,6 +866,7 @@
             // 
             richTextBox57.Location = new Point(184, 184);
             richTextBox57.Name = "richTextBox57";
+            richTextBox57.ReadOnly = true;
             richTextBox57.Size = new Size(30, 29);
             richTextBox57.TabIndex = 79;
             richTextBox57.Text = "";
@@ -819,6 +875,7 @@
             // 
             richTextBox58.Location = new Point(155, 184);
             richTextBox58.Name = "richTextBox58";
+            richTextBox58.ReadOnly = true;
             richTextBox58.Size = new Size(30, 29);
             richTextBox58.TabIndex = 78;
             richTextBox58.Text = "";
@@ -827,6 +884,7 @@
             // 
             richTextBox59.Location = new Point(128, 184);
             richTextBox59.Name = "richTextBox59";
+            richTextBox59.ReadOnly = true;
             richTextBox59.Size = new Size(30, 29);
             richTextBox59.TabIndex = 77;
             richTextBox59.Text = "";
@@ -835,6 +893,7 @@
             // 
             richTextBox60.Location = new Point(296, 336);
             richTextBox60.Name = "richTextBox60";
+            richTextBox60.ReadOnly = true;
             richTextBox60.Size = new Size(30, 29);
             richTextBox60.TabIndex = 84;
             richTextBox60.Text = "";
@@ -843,6 +902,7 @@
             // 
             richTextBox61.Location = new Point(269, 336);
             richTextBox61.Name = "richTextBox61";
+            richTextBox61.ReadOnly = true;
             richTextBox61.Size = new Size(30, 29);
             richTextBox61.TabIndex = 83;
             richTextBox61.Text = "";
@@ -851,6 +911,7 @@
             // 
             richTextBox62.Location = new Point(242, 336);
             richTextBox62.Name = "richTextBox62";
+            richTextBox62.ReadOnly = true;
             richTextBox62.Size = new Size(30, 29);
             richTextBox62.TabIndex = 82;
             richTextBox62.Text = "";
@@ -859,6 +920,7 @@
             // 
             richTextBox63.Location = new Point(213, 336);
             richTextBox63.Name = "richTextBox63";
+            richTextBox63.ReadOnly = true;
             richTextBox63.Size = new Size(30, 29);
             richTextBox63.TabIndex = 81;
             richTextBox63.Text = "";
@@ -867,6 +929,7 @@
             // 
             richTextBox64.Location = new Point(186, 336);
             richTextBox64.Name = "richTextBox64";
+            richTextBox64.ReadOnly = true;
             richTextBox64.Size = new Size(30, 29);
             richTextBox64.TabIndex = 80;
             richTextBox64.Text = "";
@@ -875,6 +938,7 @@
             // 
             richTextBox65.Location = new Point(242, 225);
             richTextBox65.Name = "richTextBox65";
+            richTextBox65.ReadOnly = true;
             richTextBox65.Size = new Size(30, 29);
             richTextBox65.TabIndex = 88;
             richTextBox65.Text = "";
@@ -883,6 +947,7 @@
             // 
             richTextBox66.Location = new Point(215, 225);
             richTextBox66.Name = "richTextBox66";
+            richTextBox66.ReadOnly = true;
             richTextBox66.Size = new Size(30, 29);
             richTextBox66.TabIndex = 87;
             richTextBox66.Text = "";
@@ -891,6 +956,7 @@
             // 
             richTextBox67.Location = new Point(186, 225);
             richTextBox67.Name = "richTextBox67";
+            richTextBox67.ReadOnly = true;
             richTextBox67.Size = new Size(30, 29);
             richTextBox67.TabIndex = 86;
             richTextBox67.Text = "";
@@ -899,9 +965,79 @@
             // 
             richTextBox68.Location = new Point(159, 225);
             richTextBox68.Name = "richTextBox68";
+            richTextBox68.ReadOnly = true;
             richTextBox68.Size = new Size(30, 29);
             richTextBox68.TabIndex = 85;
             richTextBox68.Text = "";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.галстук_303__227_;
+            pictureBox1.Location = new Point(347, 225);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(358, 247);
+            pictureBox1.TabIndex = 90;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.проверить1;
+            pictureBox2.Location = new Point(577, 157);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(139, 132);
+            pictureBox2.TabIndex = 91;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.назад3;
+            pictureBox3.Location = new Point(12, 2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(98, 62);
+            pictureBox3.TabIndex = 92;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = Properties.Resources.выйти4;
+            pictureBox4.Location = new Point(687, 2);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(100, 62);
+            pictureBox4.TabIndex = 93;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = Properties.Resources.инструкция6;
+            pictureBox5.Location = new Point(739, 60);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(42, 53);
+            pictureBox5.TabIndex = 94;
+            pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = Properties.Resources.инструкция7;
+            pictureBox6.Location = new Point(740, 60);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(42, 53);
+            pictureBox6.TabIndex = 95;
+            pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 20;
+            listBox1.Items.AddRange(new object[] { "Ваша задача — найти все", "загаданные слова, используя", "буквы из заданного слова.", "Игра развивает словарный", "запас и навыки анаграммиро-", "вания.", "Дано слово, из которого вам", "нужно собрать все загаданные ", "слова. ", "Для того, чтобы записать слово", "нужно нажать на букву изна-", "чального слова. Если вы допус-", "тили ошибку в написании слова,", "её можно исправить с помощью ", "стрелочки возле слова, которая ", "при каждом нажатии стирает", "одну букву." });
+            listBox1.Location = new Point(520, 114);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(252, 284);
+            listBox1.TabIndex = 96;
             // 
             // Form6
             // 
@@ -909,6 +1045,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 255, 192);
             ClientSize = new Size(783, 471);
+            Controls.Add(listBox1);
+            Controls.Add(pictureBox6);
+            Controls.Add(pictureBox5);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             Controls.Add(richTextBox65);
             Controls.Add(richTextBox66);
             Controls.Add(richTextBox67);
@@ -995,16 +1138,20 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(textBox1);
-            Controls.Add(button1);
             Name = "Form6";
             Text = "Головоломка";
+            Load += Form6_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Button button1;
         private TextBox textBox1;
         private Button button2;
         private Button button3;
@@ -1091,6 +1238,12 @@
         private RichTextBox richTextBox66;
         private RichTextBox richTextBox67;
         private RichTextBox richTextBox68;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox6;
+        private ListBox listBox1;
     }
 }

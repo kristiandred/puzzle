@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient.DataClassification;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,9 +15,14 @@ namespace WinFormsApp1
     public partial class Form4 : Form
     {
         int chet = 0;
+        public string ka { get; set; }
+
         public Form4()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            listBox1.Visible = false;
+            pictureBox38.Visible = false;
         }
 
         private void Proverka()
@@ -24,6 +30,10 @@ namespace WinFormsApp1
             if (chet == 15)
             {
                 MessageBox.Show("Ты всё нашёл! Молодец!");
+                this.Close();
+                Form2 form2 = new Form2();
+                form2.std = ka;
+                form2.Show();
             }
         }
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -36,7 +46,6 @@ namespace WinFormsApp1
             pictureBox3.Enabled = false;
             pictureBox4.Enabled = false;
             Proverka();
-            label1.Text = chet.ToString();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -409,6 +418,66 @@ namespace WinFormsApp1
             pictureBox33.Enabled = false;
             pictureBox34.Enabled = false;
             Proverka();
+        }
+
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+            if (ka == "Color [A=255, R=255, G=255, B=192]")
+            {
+                label1.ForeColor = Color.Black;
+                string imagePath = @"D:\Мои документы\Рабочий стол\кнопки\назад.png";
+                pictureBox35.Image = Image.FromFile(imagePath);
+                string imagePath1 = @"D:\Мои документы\Рабочий стол\кнопки\выйти.png";
+                pictureBox36.Image = Image.FromFile(imagePath1);
+                string imagePath5 = @"D:\Мои документы\Рабочий стол\кнопки\инструкция.png";
+                pictureBox37.Image = Image.FromFile(imagePath5);
+                string imagePath6 = @"D:\Мои документы\Рабочий стол\кнопки\инструкция.png";
+                pictureBox38.Image = Image.FromFile(imagePath6);
+            }
+            else if (ka == "Color [Black]")
+            {
+                string imagePath = @"D:\Мои документы\Рабочий стол\кнопки\черная назад.png";
+                pictureBox35.Image = Image.FromFile(imagePath);
+                string imagePath1 = @"D:\Мои документы\Рабочий стол\кнопки\черный выход.png";
+                pictureBox36.Image = Image.FromFile(imagePath1);
+                label1.ForeColor = Color.FromArgb(255, 255, 255, 192);
+                string imagePath5 = @"D:\Мои документы\Рабочий стол\кнопки\черная инструкция.png";
+                pictureBox37.Image = Image.FromFile(imagePath5);
+                string imagePath6 = @"D:\Мои документы\Рабочий стол\кнопки\черная инструкция.png";
+                pictureBox38.Image = Image.FromFile(imagePath6);
+            }
+        }
+
+        private void pictureBox35_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form2 = new Form2();
+            string k = this.BackColor.ToString(); // Получаем значение цвета
+            form2.std = k; // Передаем значение
+            form2.BackColor = this.BackColor; // Устанавливаем цвет фона
+            form2.Show();
+        }
+
+        private void pictureBox36_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form = new Form2();
+            form.Close();
+        }
+
+        private void pictureBox37_Click(object sender, EventArgs e)
+        {
+            pictureBox37.Visible = false;
+            pictureBox38.Visible = true;
+            listBox1.Visible = true;
+        }
+
+        private void pictureBox38_Click(object sender, EventArgs e)
+        {
+            pictureBox38.Visible = false;
+            pictureBox37.Visible = true;
+            listBox1.Visible = false;
         }
     }
 }

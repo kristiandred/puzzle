@@ -12,6 +12,10 @@ namespace WinFormsApp1
 {
     public partial class Form6 : Form
     {
+        public string ka { get; set; }
+
+
+
         private string bigWord = "программирование"; // Большое слово
         private HashSet<string> validWords; // Множество допустимых слов
         private List<string> foundWords; // Список найденных слов
@@ -19,6 +23,9 @@ namespace WinFormsApp1
         {
             InitializeComponent();
             InitializeGame();
+            this.MaximizeBox = false;
+            pictureBox6.Visible = false;
+            listBox1.Visible = false;
         }
         private void InitializeGame()
         {
@@ -29,12 +36,153 @@ namespace WinFormsApp1
             };
 
             foundWords = new List<string>();
-            // label1.Text = bigWord; // Отображаем большое слово
-            textBox1.Clear(); // Очищаем поле ввода
-                              // listBox1.Items.Clear(); // Очищаем список найденных слов
+            textBox1.Clear();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Proverka()
+        {
+            if (richTextBox1.Text != "" && richTextBox20.Text != "" && richTextBox40.Text != ""
+                 && richTextBox12.Text != "" && richTextBox47.Text != "" && richTextBox37.Text != ""
+                  && richTextBox59.Text != "" && richTextBox51.Text != "" && richTextBox44.Text != ""
+                   && richTextBox34.Text != "" && richTextBox68.Text != "" && richTextBox25.Text != ""
+                    && richTextBox56.Text != "" && richTextBox30.Text != ""
+                     && richTextBox64.Text != "" && richTextBox17.Text != "")
+            {
+                MessageBox.Show("Вы молодец! Вы прошли уровень!");
+                this.Close();
+                Form2 form = new Form2();
+                form.std = ka;
+                form.Show();
+            }
+        }
+
+
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button3.Text;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button2.Text;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button4.Text;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button5.Text;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button6.Text;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button7.Text;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button8.Text;
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button9.Text;
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button10.Text;
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button11.Text;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button12.Text;
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button13.Text;
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button14.Text;
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button15.Text;
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button16.Text;
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            textBox1.Text += button17.Text;
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Length > 0) // Проверяем, что текст не пустой
+            {
+                textBox1.Text = textBox1.Text.Substring(0, textBox1.Text.Length - 1); // Удаляем последний символ
+            }
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+            if (ka == "Color [A=255, R=255, G=255, B=192]")
+            {
+                string imagePath = @"D:\Мои документы\Рабочий стол\зверополис\галстук(303, 227).png";
+                pictureBox1.Image = Image.FromFile(imagePath);
+                string imagePath1 = @"D:\Мои документы\Рабочий стол\кнопки\проверить.png";
+                pictureBox2.Image = Image.FromFile(imagePath1);
+                string imagePath2 = @"D:\Мои документы\Рабочий стол\кнопки\назад.png";
+                pictureBox3.Image = Image.FromFile(imagePath2);
+                string imagePath3 = @"D:\Мои документы\Рабочий стол\кнопки\выйти.png";
+                pictureBox4.Image = Image.FromFile(imagePath3);
+                string imagePath5 = @"D:\Мои документы\Рабочий стол\кнопки\инструкция.png";
+                pictureBox5.Image = Image.FromFile(imagePath5);
+                string imagePath6 = @"D:\Мои документы\Рабочий стол\кнопки\инструкция.png";
+                pictureBox6.Image = Image.FromFile(imagePath6);
+            }
+            else if (ka == "Color [Black]")
+            {
+
+                string imagePath = @"D:\Мои документы\Рабочий стол\зверополис\черный галстук.png";
+                pictureBox1.Image = Image.FromFile(imagePath);
+                string imagePath1 = @"D:\Мои документы\Рабочий стол\кнопки\черное проверить.png";
+                pictureBox2.Image = Image.FromFile(imagePath1);
+                string imagePath2 = @"D:\Мои документы\Рабочий стол\кнопки\черная назад.png";
+                pictureBox3.Image = Image.FromFile(imagePath2);
+                string imagePath3 = @"D:\Мои документы\Рабочий стол\кнопки\черный выход.png";
+                pictureBox4.Image = Image.FromFile(imagePath3);
+                string imagePath5 = @"D:\Мои документы\Рабочий стол\кнопки\черная инструкция.png";
+                pictureBox5.Image = Image.FromFile(imagePath5);
+                string imagePath6 = @"D:\Мои документы\Рабочий стол\кнопки\черная инструкция.png";
+                pictureBox6.Image = Image.FromFile(imagePath6);
+
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             string inputWord = textBox1.Text.Trim().ToLower(); // Получаем введённое слово
 
@@ -162,12 +310,13 @@ namespace WinFormsApp1
                 }
                 if (word == "рана")
                 {
-                    richTextBox51.Text = "р";
-                    richTextBox50.Text = "а";
-                    richTextBox49.Text = "н";
-                    richTextBox48.Text = "а";
+                    richTextBox68.Text = "р";
+                    richTextBox67.Text = "а";
+                    richTextBox66.Text = "н";
+                    richTextBox65.Text = "а";
                 }
                 textBox1.Clear();
+                Proverka();
             }
             else
             {
@@ -176,92 +325,35 @@ namespace WinFormsApp1
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
-            textBox1.Text += button3.Text;
+            this.Close();
+            Form2 form2 = new Form2();
+            string k = this.BackColor.ToString(); // Получаем значение цвета
+            form2.std = k; // Передаем значение
+            form2.BackColor = this.BackColor; // Устанавливаем цвет фона
+            form2.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
-            textBox1.Text += button2.Text;
+            this.Close();
+            Form2 form = new Form2();
+            form.Close();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
-            textBox1.Text += button4.Text;
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = true;
+            listBox1.Visible = true;
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void pictureBox6_Click(object sender, EventArgs e)
         {
-            textBox1.Text += button5.Text;
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button6.Text;
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button7.Text;
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button8.Text;
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button9.Text;
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button10.Text;
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button11.Text;
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button12.Text;
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button13.Text;
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button14.Text;
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button15.Text;
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button16.Text;
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button17.Text;
-        }
-
-        private void button18_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text.Length > 0) // Проверяем, что текст не пустой
-            {
-                textBox1.Text = textBox1.Text.Substring(0, textBox1.Text.Length - 1); // Удаляем последний символ
-            }
+            pictureBox6.Visible = false;
+            pictureBox5.Visible = true;
+            listBox1.Visible = false;
         }
     }
 }

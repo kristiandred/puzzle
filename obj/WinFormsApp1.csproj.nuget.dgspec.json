@@ -39,6 +39,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Database": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "MailSystem.NET": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.2, )"
@@ -50,6 +58,16 @@
             "System.Data.OleDb": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "WMPLib": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

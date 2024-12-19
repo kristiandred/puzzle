@@ -118,121 +118,331 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="кустарник 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\кустарник 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="вставляем 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\вставляем 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="яблако (35, 32)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\яблако (35, 32)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="вставляем 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\вставляем 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="хобот (56,51)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\хобот (56,51).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="небо" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\небо.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="цвяточек 2.1(47, 34)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\цвяточек 2.1(47, 34).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="яблако 2.1(31, 28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\яблако 2.1(31, 28).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="гора" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\гора.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="цвяточек (39, 36)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\цвяточек (39, 36).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="лист 2.1(58, 76)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\лист 2.1(58, 76).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="хвост" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\хвост.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="минус" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\минус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="травка" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\травка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="рот (45, 34)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\рот (45, 34).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ананас 2.1(37, 38)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ананас 2.1(37, 38).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="листоголовые 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\листоголовые 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="травка 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\травка 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="хомяк" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\хомяк.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="листоголовые" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\листоголовые.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="небо 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\небо 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="рот 2.1(39, 33)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\рот 2.1(39, 33).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="апельсин" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\апельсин.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="куст (63, 70)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\куст (63, 70).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="лист (72, 82)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\лист (72, 82).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ляп 2.1(60, 40)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ляп 2.1(60, 40).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="столб" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\столб.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="гора 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\гора 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="яблако (35, 32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\яблако (35, 32).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="кустарник 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\кустарник 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ляп (37, 36)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ляп (37, 36).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="куст 2.1(84, 69)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\куст 2.1(84, 69).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="хвост 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\хвост 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="пифагор" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\пифагор.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ананас" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ананас.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="столб 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\столб 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="инструкция7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="кустарник" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\кустарник.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="джуди заяц(136, 275)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\джуди заяц(136, 275).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="носочки" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\носочки.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ляп 2.1(60, 40)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ляп 2.1(60, 40).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вентель" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вентель.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1 картинка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1 картинка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вентеляция" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вентеляция.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="проверить1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\проверить1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="куст (63, 70)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\куст (63, 70).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="проверить2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\проверить2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="листоголовые 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\листоголовые 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вода" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вода.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="рот 2.1(39, 33)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\рот 2.1(39, 33).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="рот (45, 34)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\рот (45, 34).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="полотенце" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\полотенце.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="майка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\майка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="назад5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\назад5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вставляем 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вставляем 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="цвяточек 2.1(47, 34)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\цвяточек 2.1(47, 34).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="меню1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\меню1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="барсук (188, 175)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\барсук (188, 175).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="мыло 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\мыло 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="назад1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\назад1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="пифагор" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\пифагор.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="майка 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\майка 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="проверить" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\проверить.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="хобот (56,51)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\хобот (56,51).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="выйти3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\выйти3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="черный выход" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\черный выход.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="столб 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\столб 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ананас 2.1(37, 38)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ананас 2.1(37, 38).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="выйти" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\выйти.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="яблако (35, 32)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\яблако (35, 32).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="носочки 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\носочки 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="лотос (208, 257)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\лотос (208, 257).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="проверить3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\проверить3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="листоголовые" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\листоголовые.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="бегемот с едой(271, 349)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\бегемот с едой(271, 349).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="играть" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\играть.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="хвост 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\хвост 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="травка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\травка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="выйти2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\выйти2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="мыло" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\мыло.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="лист (72, 82)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\лист (72, 82).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="яблако 2.1(31, 28)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\яблако 2.1(31, 28).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="назад4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\назад4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2 картинка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2 картинка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="лис(125, 260)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\лис(125, 260).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="полотенце 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\полотенце 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вентеляция 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вентеляция 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="пузырики 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\пузырики 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="цвяточек (39, 36)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\цвяточек (39, 36).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="далее" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\далее.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="хомяк" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\хомяк.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="назад3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\назад3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="белка в наушниках(216, 357)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\белка в наушниках(216, 357).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="шорты 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\шорты 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="выйти7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\выйти7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="выйти5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\выйти5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="шорты" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\шорты.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="тигрёнок (199, 164)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\тигрёнок (199, 164).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="барашкис(132, 140)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\барашкис(132, 140).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="травка 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\травка 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="минус" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\минус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="небо 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\небо 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="выйти1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\выйти1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="гора" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\гора.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ляп (37, 36)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ляп (37, 36).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="апельсин" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\апельсин.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="апельсин 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\апельсин 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="назад6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\назад6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="небо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\небо.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="щетка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\щетка.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="щетка 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\щетка 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="назад" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\назад.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="столб" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\столб.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="назад2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\назад2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="хобот 2.1(38, 36)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\хобот 2.1(38, 36).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="куст 2.1(84, 69)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\куст 2.1(84, 69).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="яблако (35, 32)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\яблако (35, 32)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="пузырики" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\пузырики.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="заяц" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\заяц.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="меню" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\меню.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="галстук(303, 227)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\галстук(303, 227).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ананас" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ананас.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вода 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вода 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ляп" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ляп.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="рекорды" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\рекорды.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="хвост" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\хвост.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="выйти6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\выйти6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="далее1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\далее1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="лист 2.1(58, 76)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\лист 2.1(58, 76).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="выйти4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\выйти4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вставляем 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вставляем 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ляп 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ляп 2.1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="инструкция10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\инструкция13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

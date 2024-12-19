@@ -65,6 +65,11 @@
             pictureBox32 = new PictureBox();
             pictureBox33 = new PictureBox();
             pictureBox34 = new PictureBox();
+            pictureBox35 = new PictureBox();
+            pictureBox36 = new PictureBox();
+            pictureBox37 = new PictureBox();
+            pictureBox38 = new PictureBox();
+            listBox1 = new ListBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -99,6 +104,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox32).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox33).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox34).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox36).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox37).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox38).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -464,12 +473,67 @@
             pictureBox34.TabStop = false;
             pictureBox34.Click += pictureBox34_Click;
             // 
+            // pictureBox35
+            // 
+            pictureBox35.Image = Properties.Resources.назад1;
+            pictureBox35.Location = new Point(778, -1);
+            pictureBox35.Name = "pictureBox35";
+            pictureBox35.Size = new Size(99, 62);
+            pictureBox35.TabIndex = 40;
+            pictureBox35.TabStop = false;
+            pictureBox35.Click += pictureBox35_Click;
+            // 
+            // pictureBox36
+            // 
+            pictureBox36.Image = Properties.Resources.выйти2;
+            pictureBox36.Location = new Point(869, -1);
+            pictureBox36.Name = "pictureBox36";
+            pictureBox36.Size = new Size(105, 62);
+            pictureBox36.TabIndex = 41;
+            pictureBox36.TabStop = false;
+            pictureBox36.Click += pictureBox36_Click;
+            // 
+            // pictureBox37
+            // 
+            pictureBox37.Image = Properties.Resources.инструкция2;
+            pictureBox37.Location = new Point(4, 0);
+            pictureBox37.Name = "pictureBox37";
+            pictureBox37.Size = new Size(47, 57);
+            pictureBox37.TabIndex = 42;
+            pictureBox37.TabStop = false;
+            pictureBox37.Click += pictureBox37_Click;
+            // 
+            // pictureBox38
+            // 
+            pictureBox38.Image = Properties.Resources.инструкция3;
+            pictureBox38.Location = new Point(4, -1);
+            pictureBox38.Name = "pictureBox38";
+            pictureBox38.Size = new Size(47, 57);
+            pictureBox38.TabIndex = 43;
+            pictureBox38.TabStop = false;
+            pictureBox38.Click += pictureBox38_Click;
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 20;
+            listBox1.Items.AddRange(new object[] { "Игра начинается с двух ", "изображений, которые ", "выглядят почти иден-", "тично, но содержат 15", "небольших отличий.", "Внимательно изучите", "обе картинки. Отличия", "могут быть в цветах,", "формах, расположении", "объектов или даже в", "мелких деталях.", "Когда вы заметите отли-", "чие, кликните на него." });
+            listBox1.Location = new Point(0, 55);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(179, 284);
+            listBox1.TabIndex = 44;
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 255, 192);
             ClientSize = new Size(966, 509);
+            Controls.Add(listBox1);
+            Controls.Add(pictureBox38);
+            Controls.Add(pictureBox37);
+            Controls.Add(pictureBox36);
+            Controls.Add(pictureBox35);
             Controls.Add(pictureBox34);
             Controls.Add(pictureBox33);
             Controls.Add(pictureBox32);
@@ -509,6 +573,7 @@
             Controls.Add(pictureBox1);
             Name = "Form4";
             Text = "Головоломка";
+            Load += Form4_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -543,6 +608,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox32).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox33).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox34).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox36).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox37).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox38).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -586,5 +655,10 @@
         private PictureBox pictureBox32;
         private PictureBox pictureBox33;
         private PictureBox pictureBox34;
+        private PictureBox pictureBox35;
+        private PictureBox pictureBox36;
+        private PictureBox pictureBox37;
+        private PictureBox pictureBox38;
+        private ListBox listBox1;
     }
 }

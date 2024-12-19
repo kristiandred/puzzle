@@ -232,7 +232,6 @@
             Controls.Add(button1);
             Name = "Form1";
             Text = "Головоломка";
-            Resize += Form1_Resize;
             ResumeLayout(false);
             PerformLayout();
         }

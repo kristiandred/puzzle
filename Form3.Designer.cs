@@ -107,6 +107,19 @@
             richTextBox73 = new RichTextBox();
             label5 = new Label();
             label6 = new Label();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            listBox1 = new ListBox();
+            pictureBox6 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // richTextBox1
@@ -117,6 +130,7 @@
             richTextBox1.TabIndex = 0;
             richTextBox1.Text = "";
             richTextBox1.TextChanged += richTextBox1_TextChanged;
+            richTextBox1.KeyPress += richTextBox1_KeyPress;
             // 
             // richTextBox2
             // 
@@ -136,6 +150,7 @@
             richTextBox3.TabIndex = 2;
             richTextBox3.Text = "";
             richTextBox3.TextChanged += richTextBox3_TextChanged;
+            richTextBox3.KeyPress += richTextBox3_KeyPress;
             // 
             // richTextBox4
             // 
@@ -145,6 +160,7 @@
             richTextBox4.TabIndex = 3;
             richTextBox4.Text = "";
             richTextBox4.TextChanged += richTextBox4_TextChanged;
+            richTextBox4.KeyPress += richTextBox4_KeyPress;
             // 
             // richTextBox5
             // 
@@ -154,6 +170,7 @@
             richTextBox5.TabIndex = 4;
             richTextBox5.Text = "";
             richTextBox5.TextChanged += richTextBox5_TextChanged;
+            richTextBox5.KeyPress += richTextBox5_KeyPress;
             // 
             // richTextBox6
             // 
@@ -163,6 +180,7 @@
             richTextBox6.TabIndex = 7;
             richTextBox6.Text = "";
             richTextBox6.TextChanged += richTextBox6_TextChanged;
+            richTextBox6.KeyPress += richTextBox6_KeyPress;
             // 
             // richTextBox7
             // 
@@ -172,6 +190,7 @@
             richTextBox7.TabIndex = 6;
             richTextBox7.Text = "";
             richTextBox7.TextChanged += richTextBox7_TextChanged;
+            richTextBox7.KeyPress += richTextBox7_KeyPress;
             // 
             // richTextBox8
             // 
@@ -181,6 +200,7 @@
             richTextBox8.TabIndex = 5;
             richTextBox8.Text = "";
             richTextBox8.TextChanged += richTextBox8_TextChanged;
+            richTextBox8.KeyPress += richTextBox8_KeyPress;
             // 
             // richTextBox9
             // 
@@ -190,6 +210,7 @@
             richTextBox9.TabIndex = 12;
             richTextBox9.Text = "";
             richTextBox9.TextChanged += richTextBox9_TextChanged;
+            richTextBox9.KeyPress += richTextBox9_KeyPress;
             // 
             // richTextBox10
             // 
@@ -209,6 +230,7 @@
             richTextBox11.TabIndex = 10;
             richTextBox11.Text = "";
             richTextBox11.TextChanged += richTextBox11_TextChanged;
+            richTextBox11.KeyPress += richTextBox11_KeyPress;
             // 
             // richTextBox12
             // 
@@ -218,6 +240,7 @@
             richTextBox12.TabIndex = 9;
             richTextBox12.Text = "";
             richTextBox12.TextChanged += richTextBox12_TextChanged;
+            richTextBox12.KeyPress += richTextBox12_KeyPress;
             // 
             // richTextBox13
             // 
@@ -227,6 +250,7 @@
             richTextBox13.TabIndex = 8;
             richTextBox13.Text = "";
             richTextBox13.TextChanged += richTextBox13_TextChanged;
+            richTextBox13.KeyPress += richTextBox13_KeyPress;
             // 
             // richTextBox14
             // 
@@ -236,6 +260,7 @@
             richTextBox14.TabIndex = 14;
             richTextBox14.Text = "";
             richTextBox14.TextChanged += richTextBox14_TextChanged;
+            richTextBox14.KeyPress += richTextBox14_KeyPress;
             // 
             // richTextBox15
             // 
@@ -245,6 +270,7 @@
             richTextBox15.TabIndex = 13;
             richTextBox15.Text = "";
             richTextBox15.TextChanged += richTextBox15_TextChanged;
+            richTextBox15.KeyPress += richTextBox15_KeyPress;
             // 
             // label1
             // 
@@ -263,6 +289,7 @@
             richTextBox16.TabIndex = 22;
             richTextBox16.Text = "";
             richTextBox16.TextChanged += richTextBox16_TextChanged;
+            richTextBox16.KeyPress += richTextBox16_KeyPress;
             // 
             // richTextBox17
             // 
@@ -272,6 +299,7 @@
             richTextBox17.TabIndex = 21;
             richTextBox17.Text = "";
             richTextBox17.TextChanged += richTextBox17_TextChanged;
+            richTextBox17.KeyPress += richTextBox17_KeyPress;
             // 
             // richTextBox18
             // 
@@ -281,6 +309,7 @@
             richTextBox18.TabIndex = 20;
             richTextBox18.Text = "";
             richTextBox18.TextChanged += richTextBox18_TextChanged;
+            richTextBox18.KeyPress += richTextBox18_KeyPress;
             // 
             // richTextBox19
             // 
@@ -290,6 +319,7 @@
             richTextBox19.TabIndex = 19;
             richTextBox19.Text = "";
             richTextBox19.TextChanged += richTextBox19_TextChanged;
+            richTextBox19.KeyPress += richTextBox19_KeyPress;
             // 
             // richTextBox20
             // 
@@ -299,6 +329,7 @@
             richTextBox20.TabIndex = 18;
             richTextBox20.Text = "";
             richTextBox20.TextChanged += richTextBox20_TextChanged;
+            richTextBox20.KeyPress += richTextBox20_KeyPress;
             // 
             // richTextBox21
             // 
@@ -308,6 +339,7 @@
             richTextBox21.TabIndex = 17;
             richTextBox21.Text = "";
             richTextBox21.TextChanged += richTextBox21_TextChanged;
+            richTextBox21.KeyPress += richTextBox21_KeyPress;
             // 
             // richTextBox22
             // 
@@ -327,6 +359,7 @@
             richTextBox23.TabIndex = 25;
             richTextBox23.Text = "";
             richTextBox23.TextChanged += richTextBox23_TextChanged;
+            richTextBox23.KeyPress += richTextBox23_KeyPress;
             // 
             // richTextBox24
             // 
@@ -336,6 +369,7 @@
             richTextBox24.TabIndex = 24;
             richTextBox24.Text = "";
             richTextBox24.TextChanged += richTextBox24_TextChanged;
+            richTextBox24.KeyPress += richTextBox24_KeyPress;
             // 
             // richTextBox25
             // 
@@ -345,6 +379,7 @@
             richTextBox25.TabIndex = 23;
             richTextBox25.Text = "";
             richTextBox25.TextChanged += richTextBox25_TextChanged;
+            richTextBox25.KeyPress += richTextBox25_KeyPress;
             // 
             // richTextBox26
             // 
@@ -363,6 +398,7 @@
             richTextBox27.TabIndex = 31;
             richTextBox27.Text = "";
             richTextBox27.TextChanged += richTextBox27_TextChanged;
+            richTextBox27.KeyPress += richTextBox27_KeyPress;
             // 
             // richTextBox28
             // 
@@ -372,6 +408,7 @@
             richTextBox28.TabIndex = 30;
             richTextBox28.Text = "";
             richTextBox28.TextChanged += richTextBox28_TextChanged;
+            richTextBox28.KeyPress += richTextBox28_KeyPress;
             // 
             // richTextBox29
             // 
@@ -381,6 +418,7 @@
             richTextBox29.TabIndex = 29;
             richTextBox29.Text = "";
             richTextBox29.TextChanged += richTextBox29_TextChanged;
+            richTextBox29.KeyPress += richTextBox29_KeyPress;
             // 
             // richTextBox30
             // 
@@ -390,6 +428,7 @@
             richTextBox30.TabIndex = 28;
             richTextBox30.Text = "";
             richTextBox30.TextChanged += richTextBox30_TextChanged;
+            richTextBox30.KeyPress += richTextBox30_KeyPress;
             // 
             // richTextBox31
             // 
@@ -399,6 +438,7 @@
             richTextBox31.TabIndex = 27;
             richTextBox31.Text = "";
             richTextBox31.TextChanged += richTextBox31_TextChanged;
+            richTextBox31.KeyPress += richTextBox31_KeyPress;
             // 
             // richTextBox32
             // 
@@ -408,6 +448,7 @@
             richTextBox32.TabIndex = 26;
             richTextBox32.Text = "";
             richTextBox32.TextChanged += richTextBox32_TextChanged;
+            richTextBox32.KeyPress += richTextBox32_KeyPress;
             // 
             // label2
             // 
@@ -426,6 +467,7 @@
             richTextBox33.TabIndex = 40;
             richTextBox33.Text = "";
             richTextBox33.TextChanged += richTextBox33_TextChanged;
+            richTextBox33.KeyPress += richTextBox33_KeyPress;
             // 
             // richTextBox34
             // 
@@ -435,6 +477,7 @@
             richTextBox34.TabIndex = 39;
             richTextBox34.Text = "";
             richTextBox34.TextChanged += richTextBox34_TextChanged;
+            richTextBox34.KeyPress += richTextBox34_KeyPress;
             // 
             // richTextBox35
             // 
@@ -444,6 +487,7 @@
             richTextBox35.TabIndex = 38;
             richTextBox35.Text = "";
             richTextBox35.TextChanged += richTextBox35_TextChanged;
+            richTextBox35.KeyPress += richTextBox35_KeyPress;
             // 
             // richTextBox36
             // 
@@ -453,6 +497,7 @@
             richTextBox36.TabIndex = 37;
             richTextBox36.Text = "";
             richTextBox36.TextChanged += richTextBox36_TextChanged;
+            richTextBox36.KeyPress += richTextBox36_KeyPress;
             // 
             // richTextBox37
             // 
@@ -472,6 +517,7 @@
             richTextBox38.TabIndex = 35;
             richTextBox38.Text = "";
             richTextBox38.TextChanged += richTextBox38_TextChanged;
+            richTextBox38.KeyPress += richTextBox38_KeyPress;
             // 
             // richTextBox39
             // 
@@ -481,6 +527,7 @@
             richTextBox39.TabIndex = 34;
             richTextBox39.Text = "";
             richTextBox39.TextChanged += richTextBox39_TextChanged;
+            richTextBox39.KeyPress += richTextBox39_KeyPress;
             // 
             // richTextBox40
             // 
@@ -490,6 +537,7 @@
             richTextBox40.TabIndex = 42;
             richTextBox40.Text = "";
             richTextBox40.TextChanged += richTextBox40_TextChanged;
+            richTextBox40.KeyPress += richTextBox40_KeyPress;
             // 
             // richTextBox41
             // 
@@ -499,6 +547,7 @@
             richTextBox41.TabIndex = 41;
             richTextBox41.Text = "";
             richTextBox41.TextChanged += richTextBox41_TextChanged;
+            richTextBox41.KeyPress += richTextBox41_KeyPress;
             // 
             // richTextBox42
             // 
@@ -508,6 +557,7 @@
             richTextBox42.TabIndex = 48;
             richTextBox42.Text = "";
             richTextBox42.TextChanged += richTextBox42_TextChanged;
+            richTextBox42.KeyPress += richTextBox42_KeyPress;
             // 
             // richTextBox43
             // 
@@ -517,6 +567,7 @@
             richTextBox43.TabIndex = 47;
             richTextBox43.Text = "";
             richTextBox43.TextChanged += richTextBox43_TextChanged;
+            richTextBox43.KeyPress += richTextBox43_KeyPress;
             // 
             // richTextBox44
             // 
@@ -526,6 +577,7 @@
             richTextBox44.TabIndex = 46;
             richTextBox44.Text = "";
             richTextBox44.TextChanged += richTextBox44_TextChanged;
+            richTextBox44.KeyPress += richTextBox44_KeyPress;
             // 
             // richTextBox45
             // 
@@ -535,6 +587,7 @@
             richTextBox45.TabIndex = 45;
             richTextBox45.Text = "";
             richTextBox45.TextChanged += richTextBox45_TextChanged;
+            richTextBox45.KeyPress += richTextBox45_KeyPress;
             // 
             // richTextBox46
             // 
@@ -544,6 +597,7 @@
             richTextBox46.TabIndex = 44;
             richTextBox46.Text = "";
             richTextBox46.TextChanged += richTextBox46_TextChanged;
+            richTextBox46.KeyPress += richTextBox46_KeyPress;
             // 
             // richTextBox47
             // 
@@ -553,6 +607,7 @@
             richTextBox47.TabIndex = 43;
             richTextBox47.Text = "";
             richTextBox47.TextChanged += richTextBox47_TextChanged;
+            richTextBox47.KeyPress += richTextBox47_KeyPress;
             // 
             // richTextBox48
             // 
@@ -572,6 +627,7 @@
             richTextBox49.TabIndex = 55;
             richTextBox49.Text = "";
             richTextBox49.TextChanged += richTextBox49_TextChanged;
+            richTextBox49.KeyPress += richTextBox49_KeyPress;
             // 
             // richTextBox50
             // 
@@ -581,6 +637,7 @@
             richTextBox50.TabIndex = 54;
             richTextBox50.Text = "";
             richTextBox50.TextChanged += richTextBox50_TextChanged;
+            richTextBox50.KeyPress += richTextBox50_KeyPress;
             // 
             // richTextBox51
             // 
@@ -590,6 +647,7 @@
             richTextBox51.TabIndex = 53;
             richTextBox51.Text = "";
             richTextBox51.TextChanged += richTextBox51_TextChanged;
+            richTextBox51.KeyPress += richTextBox51_KeyPress;
             // 
             // richTextBox52
             // 
@@ -599,6 +657,7 @@
             richTextBox52.TabIndex = 52;
             richTextBox52.Text = "";
             richTextBox52.TextChanged += richTextBox52_TextChanged;
+            richTextBox52.KeyPress += richTextBox52_KeyPress;
             // 
             // richTextBox53
             // 
@@ -608,6 +667,7 @@
             richTextBox53.TabIndex = 51;
             richTextBox53.Text = "";
             richTextBox53.TextChanged += richTextBox53_TextChanged;
+            richTextBox53.KeyPress += richTextBox53_KeyPress;
             // 
             // richTextBox54
             // 
@@ -617,6 +677,7 @@
             richTextBox54.TabIndex = 62;
             richTextBox54.Text = "";
             richTextBox54.TextChanged += richTextBox54_TextChanged;
+            richTextBox54.KeyPress += richTextBox54_KeyPress;
             // 
             // richTextBox55
             // 
@@ -626,6 +687,7 @@
             richTextBox55.TabIndex = 61;
             richTextBox55.Text = "";
             richTextBox55.TextChanged += richTextBox55_TextChanged;
+            richTextBox55.KeyPress += richTextBox55_KeyPress;
             // 
             // richTextBox56
             // 
@@ -635,6 +697,7 @@
             richTextBox56.TabIndex = 60;
             richTextBox56.Text = "";
             richTextBox56.TextChanged += richTextBox56_TextChanged;
+            richTextBox56.KeyPress += richTextBox56_KeyPress;
             // 
             // richTextBox57
             // 
@@ -644,6 +707,7 @@
             richTextBox57.TabIndex = 59;
             richTextBox57.Text = "";
             richTextBox57.TextChanged += richTextBox57_TextChanged;
+            richTextBox57.KeyPress += richTextBox57_KeyPress;
             // 
             // richTextBox58
             // 
@@ -653,6 +717,7 @@
             richTextBox58.TabIndex = 58;
             richTextBox58.Text = "";
             richTextBox58.TextChanged += richTextBox58_TextChanged;
+            richTextBox58.KeyPress += richTextBox58_KeyPress;
             // 
             // richTextBox59
             // 
@@ -662,6 +727,7 @@
             richTextBox59.TabIndex = 57;
             richTextBox59.Text = "";
             richTextBox59.TextChanged += richTextBox59_TextChanged;
+            richTextBox59.KeyPress += richTextBox59_KeyPress;
             // 
             // richTextBox60
             // 
@@ -671,6 +737,7 @@
             richTextBox60.TabIndex = 56;
             richTextBox60.Text = "";
             richTextBox60.TextChanged += richTextBox60_TextChanged;
+            richTextBox60.KeyPress += richTextBox60_KeyPress;
             // 
             // richTextBox61
             // 
@@ -680,6 +747,7 @@
             richTextBox61.TabIndex = 66;
             richTextBox61.Text = "";
             richTextBox61.TextChanged += richTextBox61_TextChanged;
+            richTextBox61.KeyPress += richTextBox61_KeyPress;
             // 
             // richTextBox62
             // 
@@ -699,6 +767,7 @@
             richTextBox63.TabIndex = 64;
             richTextBox63.Text = "";
             richTextBox63.TextChanged += richTextBox63_TextChanged;
+            richTextBox63.KeyPress += richTextBox63_KeyPress;
             // 
             // richTextBox64
             // 
@@ -708,6 +777,7 @@
             richTextBox64.TabIndex = 63;
             richTextBox64.Text = "";
             richTextBox64.TextChanged += richTextBox64_TextChanged;
+            richTextBox64.KeyPress += richTextBox64_KeyPress;
             // 
             // label4
             // 
@@ -721,6 +791,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.ForeColor = SystemColors.ActiveCaptionText;
             label3.Location = new Point(189, 232);
             label3.Name = "label3";
             label3.Size = new Size(421, 20);
@@ -735,6 +806,7 @@
             richTextBox65.TabIndex = 77;
             richTextBox65.Text = "";
             richTextBox65.TextChanged += richTextBox65_TextChanged;
+            richTextBox65.KeyPress += richTextBox65_KeyPress;
             // 
             // richTextBox66
             // 
@@ -744,6 +816,7 @@
             richTextBox66.TabIndex = 76;
             richTextBox66.Text = "";
             richTextBox66.TextChanged += richTextBox66_TextChanged;
+            richTextBox66.KeyPress += richTextBox66_KeyPress;
             // 
             // richTextBox67
             // 
@@ -753,6 +826,7 @@
             richTextBox67.TabIndex = 75;
             richTextBox67.Text = "";
             richTextBox67.TextChanged += richTextBox67_TextChanged;
+            richTextBox67.KeyPress += richTextBox67_KeyPress;
             // 
             // richTextBox68
             // 
@@ -772,6 +846,7 @@
             richTextBox69.TabIndex = 73;
             richTextBox69.Text = "";
             richTextBox69.TextChanged += richTextBox69_TextChanged;
+            richTextBox69.KeyPress += richTextBox69_KeyPress;
             // 
             // richTextBox70
             // 
@@ -781,6 +856,7 @@
             richTextBox70.TabIndex = 72;
             richTextBox70.Text = "";
             richTextBox70.TextChanged += richTextBox70_TextChanged;
+            richTextBox70.KeyPress += richTextBox70_KeyPress;
             // 
             // richTextBox71
             // 
@@ -790,6 +866,7 @@
             richTextBox71.TabIndex = 71;
             richTextBox71.Text = "";
             richTextBox71.TextChanged += richTextBox71_TextChanged;
+            richTextBox71.KeyPress += richTextBox71_KeyPress;
             // 
             // richTextBox72
             // 
@@ -799,6 +876,7 @@
             richTextBox72.TabIndex = 70;
             richTextBox72.Text = "";
             richTextBox72.TextChanged += richTextBox72_TextChanged;
+            richTextBox72.KeyPress += richTextBox72_KeyPress;
             // 
             // richTextBox73
             // 
@@ -808,6 +886,7 @@
             richTextBox73.TabIndex = 69;
             richTextBox73.Text = "";
             richTextBox73.TextChanged += richTextBox73_TextChanged;
+            richTextBox73.KeyPress += richTextBox73_KeyPress;
             // 
             // label5
             // 
@@ -827,12 +906,87 @@
             label6.TabIndex = 79;
             label6.Text = "Осталось попыток:";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.джуди_заяц_136__275_;
+            pictureBox1.Location = new Point(0, 174);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(161, 312);
+            pictureBox1.TabIndex = 81;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.лис_125__260_;
+            pictureBox2.Location = new Point(650, 35);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(125, 280);
+            pictureBox2.TabIndex = 82;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.назад;
+            pictureBox3.Location = new Point(616, 9);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(94, 62);
+            pictureBox3.TabIndex = 83;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = Properties.Resources.выйти1;
+            pictureBox4.Location = new Point(702, 9);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(96, 62);
+            pictureBox4.TabIndex = 84;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = Properties.Resources.инструкция;
+            pictureBox5.Location = new Point(7, 1);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(45, 53);
+            pictureBox5.TabIndex = 85;
+            pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 20;
+            listBox1.Items.AddRange(new object[] { "Ваша задача — расшифровать", "зашифрованные цитаты или", "фразы, используя логическое", "мышление.", "Начало игры:", "Игра начинается с представ-", "ления зашифрованного текста, ", "где каждой букве присвоена", "определённая цифра. Например, ", "букве \"а\" может быть присвоена", "цифра 3.", "Вам нужно определить, какие ", "цифры соответствуют каким ", "буквам. " });
+            listBox1.Location = new Point(7, 56);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(247, 284);
+            listBox1.TabIndex = 86;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = Properties.Resources.инструкция1;
+            pictureBox6.Location = new Point(7, 1);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(44, 53);
+            pictureBox6.TabIndex = 87;
+            pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 255, 192);
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox6);
+            Controls.Add(listBox1);
+            Controls.Add(pictureBox5);
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(richTextBox65);
@@ -914,6 +1068,13 @@
             Controls.Add(richTextBox1);
             Name = "Form3";
             Text = "Головоломка";
+            Load += Form3_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -999,5 +1160,12 @@
         private RichTextBox richTextBox73;
         private Label label5;
         private Label label6;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox5;
+        private ListBox listBox1;
+        private PictureBox pictureBox6;
     }
 }
